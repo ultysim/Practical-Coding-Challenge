@@ -1,11 +1,7 @@
 
 
 class ConnectFour():
-    # Need to build a board
-    # Need to put piece
-    # Need to check if won
-    # Red will be +1, black -1
-    # Keep track of which player
+    # TODO make sure col is full before putting a piece
     def __init__(self):
         self.board = [[0] * 6 for _ in range(6)]
         self.player = 1
